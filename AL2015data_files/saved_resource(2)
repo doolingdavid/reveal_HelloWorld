@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Web Filter Violation</title>
+    <style type="text/css">
+        html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; }
+        h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; }
+        div { margin: 0; padding: 0; }
+        div.header { background: url(http://usweb.dotomi.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH) 0 0 repeat-x; height: 82px; }
+        div.header h1 { background: url(http://usweb.dotomi.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGHGFHBGCHEGPFHHGG) 0 0 no-repeat; }
+        div.header h2 { background: url(http://usweb.dotomi.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH) 0 -82px no-repeat; width: 160px; float: right; }
+        div.sidebar { width: 195px; height: 200px; float: left; }
+        div.main { padding: 5px; margin-left: 195px; }
+        div.buttons { margin-top: 30px; text-align: right; }
+        h3 { margin: 36px 0; font-size: 16pt; }
+        .blocked      h3 { color: #c00; }
+        .authenticate h3 { color: #36c; }
+        h2.fgd_icon { background: url(http://usweb.dotomi.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH) 0 -166px repeat-x; width: 90px; height: 92px; margin: 48px auto; }
+        .blocked      h2.fgd_icon { background-position: 0 -166px; }
+        .authenticate h2.fgd_icon { background-position: -89px -166px; }
+        form { width: 300px; margin: 30px 0; }
+        label { display: block; width: 300px; margin: 5px 0; line-height: 25px; }
+        label input { width: 200px; border: 1px solid #7f9db9; height: 20px; float: right; }
+    </style>
+</head>
+<body class="blocked">
+    <div class="header">
+        <h2>Powered By Fortinet</h2>
+        <h1>FortiGuard Web Filtering</h1>
+    </div>
+    <div class="sidebar">
+        <h2 class="fgd_icon">blocked</h2>
+    </div>
+    <div class="main">
+<h3>Web Page Blocked!</h3>
+<div class="notice">
+    <p>You have tried to access a web page which is in violation of your internet usage policy.</p>
+    <p>
+        URL: usweb.dotomi.com/renderer/atom/3.60/2.1.0/?scripts=cnvr/thirdparty/Modernizr,cnvr/thirdparty/TweenMax.min,cnvr/thirdparty/webfont,cnvr/events/BasicEvents,cnvr/utils/XMLPush,cnvr/utils/Utils,cnvr/utils/ImageUtils,cnvr/utils/ColorUtils,cnvr/utils/FontManager,cnvr/utils/BitmapTextUtils,cnvr/loaders/BitmapFontLoader,cnvr/Settings,cnvr/events/EventDispatcher,cnvr/display/DisplayObject,cnvr/display/BitmapTextField,cnvr/utils/Detector,cnvr/utils/TextUtils,cnvr/display/AdInfo,cnvr/display/Shape,cnvr/display/Container,cnvr/loaders/ImageLoader,cnvr/display/ImageRenderer,cnvr/display/TextField,cnvr/detection/BrowserDetect,cnvr/detection/ModernizrAddOn,cnvr/analytics/Analytics,cnvr/loaders/FontLoader,cnvr/Display,cnvr/utils/DisplayUtils,cnvr/utils/EFUtils,cnvr/display/EF,cnvr/utils/Bridge<br />
+        Category: Malicious Websites
+    </p>
+    <p>
+       
+    </p>
+    <p> To have the rating of this web page re-evaluated <a href="http://url.fortinet.net/rate/submit.php?id=4D58317169412E62656E35726E20606E&cat=1A&loc=http://usweb%2edotomi%2ecom%2frenderer%2fatom%2f3%2e60%2f2%2e1%2e0%2f%3fscripts%3dcnvr%2fthirdparty%2fModernizr%2ccnvr%2fthirdparty%2fTweenMax%2emin%2ccnvr%2fthirdparty%2fwebfont%2ccnvr%2fevents%2fBasicEvents%2ccnvr%2futils%2fXMLPush%2ccnvr%2futils%2fUtils%2ccnvr%2futils%2fImageUtils%2ccnvr%2futils%2fColorUtils%2ccnvr%2futils%2fFontManager%2ccnvr%2futils%2fBitmapTextUtils%2ccnvr%2floaders%2fBitmapFontLoader%2ccnvr%2fSettings%2ccnvr%2fevents%2fEventDispatcher%2ccnvr%2fdisplay%2fDisplayObject%2ccnvr%2fdisplay%2fBitmapTextField%2ccnvr%2futils%2fDetector%2ccnvr%2futils%2fTextUtils%2ccnvr%2fdisplay%2fAdInfo%2ccnvr%2fdisplay%2fShape%2ccnvr%2fdisplay%2fContainer%2ccnvr%2floaders%2fImageLoader%2ccnvr%2fdisplay%2fImageRenderer%2ccnvr%2fdisplay%2fTextField%2ccnvr%2fdetection%2fBrowserDetect%2ccnvr%2fdetection%2fModernizrAddOn%2ccnvr%2fanalytics%2fAnalytics%2ccnvr%2floaders%2fFontLoader%2ccnvr%2fDisplay%2ccnvr%2futils%2fDisplayUtils%">please click here</a>.</p>
+</div>
+    </div>
+</body>
+</html>

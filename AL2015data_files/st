@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Web Filter Violation</title>
+    <style type="text/css">
+        html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 10pt; }
+        h1, h2 { height: 82px; text-indent: -999em; margin: 0; padding: 0; margin: 0; }
+        div { margin: 0; padding: 0; }
+        div.header { background: url(http://imprusmp.basebanner.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH) 0 0 repeat-x; height: 82px; }
+        div.header h1 { background: url(http://imprusmp.basebanner.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGHGFHBGCHEGPFHHGG) 0 0 no-repeat; }
+        div.header h2 { background: url(http://imprusmp.basebanner.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH) 0 -82px no-repeat; width: 160px; float: right; }
+        div.sidebar { width: 195px; height: 200px; float: left; }
+        div.main { padding: 5px; margin-left: 195px; }
+        div.buttons { margin-top: 30px; text-align: right; }
+        h3 { margin: 36px 0; font-size: 16pt; }
+        .blocked      h3 { color: #c00; }
+        .authenticate h3 { color: #36c; }
+        h2.fgd_icon { background: url(http://imprusmp.basebanner.com:8008/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH) 0 -166px repeat-x; width: 90px; height: 92px; margin: 48px auto; }
+        .blocked      h2.fgd_icon { background-position: 0 -166px; }
+        .authenticate h2.fgd_icon { background-position: -89px -166px; }
+        form { width: 300px; margin: 30px 0; }
+        label { display: block; width: 300px; margin: 5px 0; line-height: 25px; }
+        label input { width: 200px; border: 1px solid #7f9db9; height: 20px; float: right; }
+    </style>
+</head>
+<body class="blocked">
+    <div class="header">
+        <h2>Powered By Fortinet</h2>
+        <h1>FortiGuard Web Filtering</h1>
+    </div>
+    <div class="sidebar">
+        <h2 class="fgd_icon">blocked</h2>
+    </div>
+    <div class="main">
+<h3>Web Page Blocked!</h3>
+<div class="notice">
+    <p>You have tried to access a web page which is in violation of your internet usage policy.</p>
+    <p>
+        URL: imprusmp.basebanner.com/st?cipid=7932438&amp;ttype=0&amp;cirid=501F271FA13916910191711244797&amp;pix=31572070&amp;cicmp=1149687&amp;cijs=1&amp;dast=bXRtZGxpZD0tMTUzMTc5MTU3OCZtZGxpZD0tMTUzMTc5MTU3OCZleGNpZD00MCZ1bWV4Y2lkPTQwJnRzPTE0NjYxNzg0OTcyNjMmc3ppZD0xMyZzZWdpZD0mcHN0bj0xJnBsY21udD0xJmNyaWQ9NDE5NTc3NyZjaWJwPTMuNzcxNzc0NjYyMzQxOTkwOCZjaXNicD0zLjc3MTc3NDY2MjM0MTk5MDgmY2lwcmJwPTYuODEwMTQ4Njk1ODk1MjYxJm5vYW9wPTEmY2lhZ2U9LTEmY2lnbmRyPTImaW52Yz0wJnNsaWQ9LTEmb3NsaWQ9NTEyMTgmb3NpZD01MzMmYnJzcj0zODQxJnB1YmlkPTAmc3ViaWQ9MCZjbnRyeT0yMjcmcmNhdGlkPSZwaXg9MzE1NzIwNzAmc289MCZibz0xNSZjaXJpZD01MDFGMjcxRkExMzkxNjkxMDE5MTcxMTI0NDc5NyZ3aWY9ZmFsc2Umc2VjPWZhbHNlJm5zbD10cnVlJmNpY21wPTExNDk2ODcmY2lpcGQ9MTA3MjQwNjc4NiZtbXQ9MiZjaXVpZD01NzQzMDQ4MjMyMTc3Njg0OTg4JmNpdWlkc3Q9NTc0MzA0ODIzMjE3NzY4NDk4OCZjaXVtcz0xJmZyaW1wPTEmZnJjbGs9MCZmcmNudj0xJmx0c3RtcD0xNDY2MTc1NjQ2MTYxJm1kPWZhbHNlJmNpcGlkPTc5MzI0MzgmY2lyZj1hSFIwY0RvdkwzZDNkeTVpWVhObFltRnNiQzF5WldabGNtVnVZMlV1WTI5dEwyeGxZV2QxWlhNdlFVd3ZNakF4TlM1emFIUnRiQSZiYXNlNjQ9MSZtYnI9MCZ2ZXJ0aWNhbElkPTM4NyZkY2lkPTAmYWxuZz04OSZycG09MC4wMDY4MTAxNDg2OTU4OTUyNjEmbWlkPS02MzYzJmF1YzY0PS00MjY2NTI0ODg1OTk4MDM0MDQ2JmNpdGJwPTMuNzcxNzc0NjYyMzQxOTkwOA==&amp;cipp=3.72900&amp;excid=40<br />
+        Category: Malicious Websites
+    </p>
+    <p>
+       
+    </p>
+    <p> To have the rating of this web page re-evaluated <a href="http://url.fortinet.net/rate/submit.php?id=134F376C2F163D636C7235686C367635&cat=1A&loc=http://imprusmp%2ebasebanner%2ecom%2fst%3fcipid%3d7932438%26ttype%3d0%26cirid%3d501F271FA13916910191711244797%26pix%3d31572070%26cicmp%3d1149687%26cijs%3d1%26dast%3dbXRtZGxpZD0tMTUzMTc5MTU3OCZtZGxpZD0tMTUzMTc5MTU3OCZleGNpZD00MCZ1bWV4Y2lkPTQwJnRzPTE0NjYxNzg0OTcyNjMmc3ppZD0xMyZzZWdpZD0mcHN0bj0xJnBsY21udD0xJmNyaWQ9NDE5NTc3NyZjaWJwPTMuNzcxNzc0NjYyMzQxOTkwOCZjaXNicD0zLjc3MTc3NDY2MjM0MTk5MDgmY2lwcmJwPTYuODEwMTQ4Njk1ODk1MjYxJm5vYW9wPTEmY2lhZ2U9LTEmY2lnbmRyPTImaW52Yz0wJnNsaWQ9LTEmb3NsaWQ9NTEyMTgmb3NpZD01MzMmYnJzcj0zODQxJnB1YmlkPTAmc3ViaWQ9MCZjbnRyeT0yMjcmcmNhdGlkPSZwaXg9MzE1NzIwNzAmc289MCZibz0xNSZjaXJpZD01MDFGMjcxRkExMzkxNjkxMDE5MTcxMTI0NDc5NyZ3aWY9ZmFsc2Umc2VjPWZhbHNlJm5zbD10cnVlJmNpY21wPTExNDk2ODcmY2lpcGQ9MTA3MjQwNjc4NiZtbXQ9MiZjaXVpZD01NzQzMDQ4MjMyMTc3Njg0OTg4JmNpdWlkc3Q9NTc0MzA0ODIzMjE3NzY4NDk4OCZjaXVtcz0xJm&ver=6">please click here</a>.</p>
+</div>
+    </div>
+</body>
+</html>

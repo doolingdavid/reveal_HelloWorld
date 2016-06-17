@@ -1,0 +1,146 @@
+document.write("<div class='_rxadck' id='60c1ef20301af398abbe87f3bf3b6d16-5407af38541df064e14914528f41d055-f8eb31a77f0ad020b0972d70eefc046b-d80ec4b29d6e8f8267349427c0bd6b14'><script id=\"_cm_videoUnit_placeHolder501F271FA13916910201074854973\" src=\"//www.cmbestsrv.com/vpaid/units/4_2_10/creatives/creative_js.js\"></script> <script>    cmTag.set(\"unitType\", \"EXPANDABLE\");cmTag.set(\"secondsBW\",\"10\");cmTag.set(\"timeBetweenAds\", 1);cmTag.set(\"abTest\",\"timebtw_15_6_vD\");cmTag.set(\"player.versions.vplayer\",\"v5.4.42\");      cmTag.set(\"preroll.pubId\", 152787);    cmTag.set(\"preroll.pubTagId\", 881597);    cmTag.set(\"midroll.pubId\", 152787);    cmTag.set(\"midroll.pubTagId\", 881607);    cmTag.set(\"postroll.pubId\", 152787);    cmTag.set(\"postroll.pubTagId\", 881617);    cmTag.set(\"category\", \"travel\");    cmTag.set(\"vertical\", \"main\");    cmTag.set(\"isShowOnAd\",\"static\");    cmTag.set(\"loaderImage\", \"//cloudvid.cachefly.net/img/play_image_4.jpg\");    cmTag.set(\"secondsToClose\", \"900\");    cmTag.set(\"noaop\", 2);     cmTag.set(\"ronPercent\", 5);</script><script> cmTag.setMacros({     dast: \"V1___18_4vcr7u1ne5kfs_5743048232177684988_1_d_501F271FA13916910201074854973_501F271FA13916910191711244797__1_1__aHR0cDovL3d3dy5iYXNlYmFsbC1yZWZlcmVuY2UuY29tL2xlYWd1ZXMvQUwvMjAxNS5zaHRtbA_1_401e1_3.7717746623419908_3.7717746623419908_6.810148695895261__1_-1_2_0_-1_1i0i_73_____3o1_gl_1_0_1_0_0_1466175646161_-1531791578_-1531791578_________7i2gm_132nn_________u3g36__f_0______-6363_false_1072406786_false__true_____false_2_____umexcid%3D40%26ts%3D1466178497263%26verticalId%3D387%26mbr%3D0\",     dataCenter: \"us\",     clickUrl: \"\",     referrer: \"http%3A%2F%2Fwww.baseball-reference.com\",     cipid: \"7932438\",     cmDast: \"V1___18_4vcr7u1ne5kfs_5743048232177684988_1_d_501F271FA13916910201074854973_501F271FA13916910191711244797__1_1__aHR0cDovL3d3dy5iYXNlYmFsbC1yZWZlcmVuY2UuY29tL2xlYWd1ZXMvQUwvMjAxNS5zaHRtbA_1_401e1_3.7717746623419908_3.7717746623419908_6.810148695895261__1_-1_2_0_-1_1i0i_73_____3o1_gl_1_0_1_0_0_1466175646161_-1531791578_-1531791578_________7i2gm_132nn_________u3g36__f_0______-6363_false_1072406786_false__true_____false_2_____umexcid%3D40%26ts%3D1466178497263%26verticalId%3D387%26mbr%3D0\",     tagId: \"e40lLINE_ITEM_ID_WILL_BE_HERE_ON_SERVINGc\",     creativeId: \"4195777\",     redId: \"501F271FA13916910201074854973\" }); </script><script type=\"text/javascript\" src=\"http://imprusmp.basebanner.com/st?cipid=7932438&ttype=0&cirid=501F271FA13916910191711244797&pix=31572070&cicmp=1149687&cijs=1&dast=bXRtZGxpZD0tMTUzMTc5MTU3OCZtZGxpZD0tMTUzMTc5MTU3OCZleGNpZD00MCZ1bWV4Y2lkPTQwJnRzPTE0NjYxNzg0OTcyNjMmc3ppZD0xMyZzZWdpZD0mcHN0bj0xJnBsY21udD0xJmNyaWQ9NDE5NTc3NyZjaWJwPTMuNzcxNzc0NjYyMzQxOTkwOCZjaXNicD0zLjc3MTc3NDY2MjM0MTk5MDgmY2lwcmJwPTYuODEwMTQ4Njk1ODk1MjYxJm5vYW9wPTEmY2lhZ2U9LTEmY2lnbmRyPTImaW52Yz0wJnNsaWQ9LTEmb3NsaWQ9NTEyMTgmb3NpZD01MzMmYnJzcj0zODQxJnB1YmlkPTAmc3ViaWQ9MCZjbnRyeT0yMjcmcmNhdGlkPSZwaXg9MzE1NzIwNzAmc289MCZibz0xNSZjaXJpZD01MDFGMjcxRkExMzkxNjkxMDE5MTcxMTI0NDc5NyZ3aWY9ZmFsc2Umc2VjPWZhbHNlJm5zbD10cnVlJmNpY21wPTExNDk2ODcmY2lpcGQ9MTA3MjQwNjc4NiZtbXQ9MiZjaXVpZD01NzQzMDQ4MjMyMTc3Njg0OTg4JmNpdWlkc3Q9NTc0MzA0ODIzMjE3NzY4NDk4OCZjaXVtcz0xJmZyaW1wPTEmZnJjbGs9MCZmcmNudj0xJmx0c3RtcD0xNDY2MTc1NjQ2MTYxJm1kPWZhbHNlJmNpcGlkPTc5MzI0MzgmY2lyZj1hSFIwY0RvdkwzZDNkeTVpWVhObFltRnNiQzF5WldabGNtVnVZMlV1WTI5dEwyeGxZV2QxWlhNdlFVd3ZNakF4TlM1emFIUnRiQSZiYXNlNjQ9MSZtYnI9MCZ2ZXJ0aWNhbElkPTM4NyZkY2lkPTAmYWxuZz04OSZycG09MC4wMDY4MTAxNDg2OTU4OTUyNjEmbWlkPS02MzYzJmF1YzY0PS00MjY2NTI0ODg1OTk4MDM0MDQ2JmNpdGJwPTMuNzcxNzc0NjYyMzQxOTkwOA==&cipp=3.72900&excid=40\"></script><img src=\"http://8.30.11.128/ad?mode=15&rbid=2285&rwnd=orVKL1FQuECKekc0tdGSG5IQgIhaAAAA99AhBsS-ph2+t5GZYn-Gkvld0-L213EcV19-my2iqOudtmCsGRhyU-SRUUur+VRKh8VELLNkYPrUHvxhrryiTPrj1k0hdpex9YDwxuUkaofUcy3inanG0mPH4vLpmGuP&wpc=2.529&dE=0221448458:00329\" height=\"0\" width=\"0\" style=\"border: 0px none;width:0px;height:0px;\" /></div>");try{var __zdepage = location.href;}catch(e){var __zdepage = false;}try{var __zderefer = (document.referrer) ? document.referrer : "none";}catch(e){var __zderefer = "none";}var __zdebk = new Image();__zdebk.src = "http://adserve-nj.1rx.io/rtbtrkd?excid=sovrn&pickup=f8eb31a77f0ad020b0972d70eefc046b&zrk=5407af38541df064e14914528f41d055&zds=60c1ef20301af398abbe87f3bf3b6d16&imp=95fab0da6b6b1ab32e7c40890ce2eb34&zwp=1.634&pv=1&asb=0&prc=ZX0.9613047435414046&pg=" + encodeURIComponent(__zdepage) +"&refer=" + encodeURIComponent(__zderefer);var __zenimg=new Image();__zenimg.src='http://sync.1rx.io/usersync2/sovrn?impinit=1&regionint=2032';__zenimg = null;setTimeout(function(){var __zenimg2=new Image();__zenimg2.src='http://sync.1rx.io/usersync2/sovrn?impinit=1&regionint=2032&i=2';__zenimg2 = null;},2000);var clicktracker987k7MrCwbwclfEbldede = false; //Used for initializing script only once on a page
+if( typeof _rxclk9_reds == 'undefined' )
+	var _rxclk9_reds = {};
+
+(function () {
+	//IE checking
+	var userAgent = navigator.userAgent.toLowerCase();
+	var version = (userAgent.match( /.+(?:rv|it|ra|ie)[\/: ]([\d.]+)/ ) || [])[1];
+	version = version.split(".");
+	version = version[0];
+	var isIE = /msie/.test( userAgent );
+
+	//IE checking
+	if( isIE && version <= 7 ){
+		//function for classnames for ie before v8
+		function getElementsByClassName(node, classname) {
+			var a = [];
+			var re = new RegExp('(^| )'+classname+'( |$)');
+			var els = node.getElementsByTagName("*");
+			for(var i=0,j=els.length; i<j; i++)
+				if(re.test(els[i].className))a.push(els[i]);
+			return a;
+		}
+	}
+
+	//IE checking
+	if( isIE && version == 8 ){
+		//ie 8
+		var allAds = document.querySelectorAll('._rxadck');
+	} else if ( isIE && version <= 7 ) {
+		//before ie 8
+		var allAds = getElementsByClassName(document.body,'_rxadck');
+	} else {
+		//standard way of getting all elements with a specific classname
+		var allAds = document.getElementsByClassName('_rxadck');
+	}
+
+	var adsClassName = "_rxadck";
+	//var debug = document.getElementById("debug"); //DEBUG
+	var handlersList = new Array();
+	var lostFocus = false;
+	if( typeof _rxclk9_reds == 'undefined' )
+		_rxclk9_reds = {};
+	
+	_rxclk9_reds['var'] = '';
+	var clickurl = 'http://adserve-nj.1rx.io';
+		
+
+	function createHandlerOnMouseOver( elementID ) {
+		var name = handlersList[elementID].element.id;
+		//debug.innerHTML="Mouse detection: INSIDE ELEMENT [" + name + "]"; //DEBUG
+		handlersList[elementID].over = true;
+	}
+
+	function createHandlerOnMouseOut( elementID ) {
+		var name = handlersList[elementID].element.id;
+	   // debug.innerHTML="Mouse detection: OUTSIDE ELEMENT [" + name + "]"; //DEBUG
+		handlersList[elementID].over = false;
+		handlersList[elementID].clicks = 0;
+	}
+
+	function windowLoseFocus(){
+		for(var i in handlersList){
+			//if we lost focus while the mouse was over one of our elements
+			if( handlersList[i].over == true ){
+				var thisElem = handlersList[i]
+				lostFocus = true;
+				thisElem.clicks += 1;
+				//debug.innerHTML="Mouse detection: CLICK [" + thisElem.element.id + "] [" + thisElem.clicks + "]"; //DEBUG
+				retrieveFocus();
+				
+				try{var __zdepage = location.href;} catch(e){var __zdepage = false;}
+				try{var __zderefer = (document.referrer) ? document.referrer : "none";} catch(e){var __zderefer = "none";}
+				
+				
+				try {
+					if( _rxclk9_reds.hasOwnProperty(thisElem.element.id) )
+						var zclkredir = _rxclk9_reds[thisElem.element.id];
+				}
+				catch(e) {
+					var zclkredir = false;	
+				}
+				
+				try {
+					var _zdeclkimg = new Image();
+					_zdeclkimg.src = clickurl + '/rtbctrkd/' + thisElem.element.id + "?pg=" + encodeURIComponent(__zdepage) +"&refer="+ encodeURIComponent(__zderefer) + (zclkredir ? ("&zclkredir=" + zclkredir) : '');
+				}
+				catch(e) {  }
+			}
+		}
+	}
+
+	function retrieveFocus(){
+		var parentDiv = document.createElement('div');
+			parentDiv.innerHTML = '<div style="position:fixed; top:0; left:0; overflow:hidden;" id="retriever_container_8uek7MrCwBEcCEb" />';
+		document.body.appendChild(parentDiv);
+		var containerDiv = document.getElementById("retriever_container_8uek7MrCwBEcCEb")
+			containerDiv.innerHTML = '<input style="position:absolute; left:-300px;" type="text" value="" id="retriever_8uek7MrCwBEcCEb" />';
+			parentDiv.appendChild(containerDiv);
+
+		focusRetriever = document.getElementById("retriever_8uek7MrCwBEcCEb");
+		setTimeout(function(){focusRetriever.focus();},0);
+		window.focus();
+	}
+
+	function init(){
+		for(var i=0; i<allAds.length; i++) {
+			var current = {};
+			current.element = allAds[i];
+			current.over = false;
+			current.clicks = 0;
+			handlersList[i] = current;
+			current.element.onmouseover = ( function(n){ return function(){createHandlerOnMouseOver(n);} } )( i );
+			current.element.onmouseout= ( function(n){ return function(){createHandlerOnMouseOut(n);} } )( i );
+		}
+	}
+
+	function createHandlerGotFocus(){ 
+		if (lostFocus == true) {
+			//document.getElementById("focus_retriever_container").remove();
+			if(document.getElementById("retriever_container_8uek7MrCwBEcCEb")){
+				document.body.removeChild(document.getElementById('retriever_container_8uek7MrCwBEcCEb').parentNode);
+			}
+		}
+	}
+
+	function createHandlerLostFocus() { 
+		windowLoseFocus();
+	}
+
+	//Start all event listeners
+	if (clicktracker987k7MrCwbwclfEbldede == false) {
+		if(window.addEventListener) {
+			//This is normal standarnized handler
+			window.addEventListener('load', init, false);
+			window.addEventListener('focus', createHandlerGotFocus, false);
+			window.addEventListener('blur', createHandlerLostFocus, false);
+		} else if (window.attachEvent) {
+			//Older version of browsers handler
+			window.attachEvent('onload', init);
+			window.attachEvent('onfocus', createHandlerGotFocus);
+			window.attachEvent('onblur', createHandlerLostFocus);
+		}
+		clicktracker987k7MrCwbwclfEbldede = true;
+	}
+}());document.write('<scr'+'ipt src="http://sync.1rx.io/usersyncall?s=sovrn&impinit=1"></scr'+'ipt>');document.write('<scr'+'ipt type="text/javascript" src="//zt.1rx.io/rg/1rx_imp?k0=site&k1=gamutinternalser&k2=c-1178-0&k3=cr-1178-6807036824264128562&k4=&k5=sovrn&k6=231666&k7=337480&k8=http%3A%2F%2Fwww.baseball-reference.com%2Fleagues%2FAL%2F2015.shtml&k9=RX-9892c2a4-0bc7-4022-bb69-4af62e99f975&k10=63.235.161.2&k11=300x250&k12=622b59eea9e4340c611480a3cce27ab4&k13=baseball-reference.com&k14=&k15=&k16=4492687070&k17=5407af38541df064e14914528f41d055&"></scr'+'ipt>');document.write('<scr'+'ipt type="text/javascript" src="https://q.adrta.com/aa.js?cb=4492687070#ro;paid=ro;avid=gamutinternalser;caid=c-1178-0;plid=cr-1178-6807036824264128562;siteId=337480;publisherId=231666;kv1=300x250;kv2=http%3A%2F%2Fwww.baseball-reference.com%2Fleagues%2FAL%2F2015.shtml;kv3=RX-9892c2a4-0bc7-4022-bb69-4af62e99f975;kv4=63.235.161.2;kv7=sovrn;kv12=;kv24=display;"></scr'+'ipt>');document.write('<scr'+'ipt type="text/javascript"> var _qevents = _qevents || []; (function() {	var elem = document.createElement("script");	elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";		elem.async = true;	elem.type = "text/javascript";	var scpt = document.getElementsByTagName("script")[0];	scpt.parentNode.insertBefore(elem, scpt); })();	</scr'+'ipt><scr'+'ipt type="text/javascript"> _qevents.push({ qacct:"p-59TntzuqummDw", labels:"RhythmMax"	}); </scr'+'ipt>	<noscr'+'ipt>	<div style="display:none;">	<img src="//pixel.quantserve.com/pixel/p-59TntzuqummDw.gif?labels=RhythmXchange" border="0" height="1" width="1" alt="Quantcast"/>	</div>	</noscr'+'ipt>');document.write('<iframe src="http://ads.pubmatic.com/AdServer/js/user_sync.html?p=35675&rx=0.4289136193692684&predirect=http%3A%2F%2Fsync.rhythmxchange.com%2Fusersync%2Fpubmatic%2F" style="display:none;visibility:hidden;position: absolute;top: -15000px;left: -15000px;"></iframe>');document.write('<scr'+'ipt src="http://pixel.mathtag.com/sync/js?sync=auto"></scr'+'ipt>');
