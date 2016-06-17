@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- WRS JavaScript Template -->
+<html>
+<head>
+<title>Trend Micro&trade; Worry-Free&trade; Business Security</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" >
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<!--common CSS-->
+<style type="text/css" media="screen">
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	outline: 0;
+    	font-size: 100%;
+    	vertical-align: baseline;
+    	/*background: transparent;*/
+    }
+    body {
+    	line-height: 1;
+    }
+    html, td, select, input, option, textarea, th {
+    	font:11px Arial, Helvetica, sans-serif;
+    	color:#333;
+    }
+    ol, ul {
+    	list-style: none;
+    }
+    .main_content,
+    .footer,
+    .top h1{
+    /*	min-width: 650px;*/
+    	width: 90%;
+    }
+
+    .wrapper{
+    }
+
+    .top{
+    	padding: 10px 20px;
+    	background: #D32E2E;
+    }
+
+    .main_content{
+    	padding: 20px;
+    }
+
+    .footer{
+    	color: #999;
+    	padding: 20px;
+    }
+
+
+    /**************************************************
+    general content setup (banner, help, etc)
+    **************************************************/
+    .top h1{
+    	padding: 0;
+    	font-weight: normal; 
+    	font-size: 21px;  
+    	color: #fff; 
+    }
+
+    /**************************************************
+    Status area
+    **************************************************/
+    .status_area{
+    	min-height: 63px;
+    	height:auto!important;
+    	height:63px;
+    	padding: 0 0 0 70px;
+    	margin-bottom: 20px;
+    	background-position: left top;
+    	background-repeat: no-repeat;
+    }
+
+    .status_area h2{	
+    	font-size: 26px;
+    	line-height: 32px;	
+    	background: none;
+    	padding: 0;
+    	color: #000;
+    	font-weight: normal;
+    }
+
+    /*reserved for more information*/
+    /*.status_area h2 i{	
+    	font-size: 11px;
+    	background: none;
+    	font-weight: normal;
+    	font-style: normal;
+    }*/
+
+    .status_area p{
+    	font-size: 16px;
+    	line-height: 26px;
+    	color: #000;
+    }
+
+    .status_area.statuserr{
+    	background-image: url(http://localhost:21112/GET?f=icon_status_err_big.gif);
+    }
+
+    .status_area.statusstop{
+    	background-image: url(http://localhost:21112/GET?f=icon_status_stop_big.gif);
+    }
+
+
+    /**************************************************
+    detail area
+    **************************************************/
+    .table_detail th{
+    	font-size: 12px;
+    	padding: 0 4px 0 0;
+    	font-weight: bold;
+    }
+    .table_detail td{
+    	font-size: 12px;
+    	padding: 4px;
+    }
+
+    .sub_header{
+    	font-weight: normal; 
+    	font-size: 16px; 
+    	margin: 30px 0 10px 0; 
+    	color: #0066CC;
+    }
+
+    .list_arrow li{
+    	font-size: 12px;
+
+    }
+
+    .list_arrow li{
+    	background: url(http://localhost:21112/GET?f=icon_bullet_blue.gif) no-repeat left center;
+    	padding-left: 15px;
+    	line-height: 18px;
+    }
+
+
+</style>
+<script type="text/javascript">
+// Add following comment to prevent common client insert javascript which was used in old blocking pages
+// WRS JavaScript Template
+<!--
+var blockPageURL;
+var interval;
+var CatNameMapping = 
+	{
+		'Adult/Mature Content':                           'Adult/Mature Content',
+		'Pornography':                                    'Pornography',
+		'Child Pornography':                              'Other Pornography',
+		'Sex Education':                                  'Sex Education',
+		'Intimate Apparel/Swimsuit':                      'Intimate Apparel/Swimsuit',
+		'Nudity':                                         'Nudity',
+		'Alcohol/Tobacco':                                'Alcohol/Tobacco',
+		'Illegal/Questionable':                           'Illegal/Questionable',
+		'Tasteless':                                      'Tasteless',
+		'Gambling':                                       'Gambling',
+		'Violence / Hate / Racism':                       'Violence / Hate / Racism',
+		'Weapons':                                        'Weapons',
+		'Abortion':                                       'Abortion',
+		'Recreation/Hobbies':                             'Recreation/Hobbies',
+		'Arts':                                           'Arts',
+		'Entertainment':                                  'Entertainment',
+		'Business/Economy':                               'Business/Economy',
+		'Cult/Occult':                                    'Cult/Occult',
+		'Internet Radio and TV':                          'Internet Radio and TV',
+		'Internet Telephony':                             'Internet Telephony',
+		'Illegal Drugs':                                  'Illegal Drugs',
+		'Marijuana':                                      'Marijuana',
+		'Education':                                      'Education',
+		'Cultural Institutions':                          'Cultural Institutions',
+		'Activist Groups':                                'Activist Groups',
+		'Financial Services':                             'Financial Services',
+		'Brokerages/Trading':                             'Brokerages/Trading',
+		'Games':                                          'Games',
+		'Government/Legal':                               'Government/Legal',
+		'Military':                                       'Military',
+		'Politics':                                       'Politics',
+		'Health':                                         'Health',
+		'Computers/Internet':                             'Computers/Internet',
+		'Proxy Avoidance':                                'Proxy Avoidance',
+		'Search Engines/Portals':                         'Search Engines/Portals',
+		'Internet Infrastructure':                        'Internet Infrastructure',
+		'Blogs/Web Communications':                       'Blogs/Web Communications',
+		'Photo Searches':                                 'Photo Searches',
+		'Alternative Journals':                           'Alternative Journals',
+		'Job Search/Careers':                             'Job Search/Careers',
+		'News/Media':                                     'News/Media',
+		'Personals/Dating':                               'Personals/Dating',
+		'Translators/Cached Pages':                       'Translators/Cached Pages',
+		'Reference':                                      'Reference',
+		'Social Networking':                              'Social Networking',
+		'Chat/Instant Messaging':                         'Chat/Instant Messaging',
+		'Email':                                          'Email',
+		'Newsgroups':                                     'Newsgroups',
+		'Religion':                                       'Religion',
+		'Personal Sites':                                 'Personal Sites',
+		'Personal Network Storage/File Download Servers': 'Personal Network Storage/File Download Servers',
+		'Peer-to-Peer':                                   'Peer-to-Peer',
+		'Shopping':                                       'Shopping',
+		'Auctions':                                       'Auctions',
+		'Real Estate':                                    'Real Estate',
+		'Society/Lifestyle':                              'Society/Lifestyle',
+		'Gay/Lesbian':                                    'Gay/Lesbian',
+		'Gun Clubs/Hunting':                              'Gun Clubs/Hunting',
+		'Restaurants/Food':                               'Restaurants/Food',
+		'Sports':                                         'Sports',
+		'Travel':                                         'Travel',
+		'Vehicles':                                       'Vehicles',
+		'Humor':                                          'Humor',
+		'Streaming Media/MP3':                            'Streaming Media/MP3',
+		'Ringtones/Mobile Phone Downloads':               'Ringtones/Mobile Phone Downloads',
+		'Software Downloads':                             'Software Downloads',
+		'Pay to Surf':                                    'Pay to Surf',
+		'Potentially Malicious Software':                 'Potentially Malicious Software',
+		'Spyware':                                        'Spyware',
+		'Phishing':                                       'Phishing',
+		'Spam':                                           'Spam',
+		'Adware':                                         'Adware',
+		'Malware Accomplice':                             'Malware Accomplice',
+		'Disease Vector':                                 'Disease Vector',
+		'Cookies':                                        'Cookies',
+		'Dialers':                                        'Dialers',
+		'Hacking':                                        'Hacking',
+		'Joke Program':                                   'Joke Program',
+		'Password Cracking':                              'Password Cracking',
+		'Remote Access Program':                          'Remote Access Program',
+		'Made for AdSense':                               'Made for AdSense',
+		'For Kids':                                       'For Kids',
+		'Web Advertisement':                              'Web Advertisement',
+		'Web Hosting':                                    'Web Hosting',
+		'Unrated':                                        'Unrated',
+		'User Define':                                   'User Defined'		
+	};
+
+function GetQueryValue(sorStr, panStr)
+{
+  var vStr="";
+  
+  if(sorStr==null || panStr==null	||
+     sorStr==""	|| panStr=="" )
+     return   vStr;
+  panStr += "=";
+  var itmp=sorStr.indexOf(panStr);	
+  if(itmp<0){return vStr;}
+  sorStr = sorStr.substr(itmp + panStr.length);
+  itmp=sorStr.indexOf("&");
+
+  if(itmp>=0)
+  {
+     sorStr=sorStr.substr(0,itmp);
+     return   sorStr;
+  }
+  return   sorStr;
+}
+
+function getDocHeight(doc) {
+  var docHt = 0, sh, oh;
+  if (doc.height) docHt = doc.height;
+  else if (doc.body) {
+    if (doc.body.scrollHeight) docHt = sh = doc.body.scrollHeight;
+    if (doc.body.offsetHeight) docHt = oh = doc.body.offsetHeight;
+    if (sh && oh) docHt = Math.max(sh, oh);
+  }
+  return docHt;
+}
+
+function getDocWidth(doc) {
+  var docWd = 0, sh, oh;
+  if (doc.width) docWd = doc.width;
+  else if (doc.body) {
+    if (doc.body.scrollWidth) docWd = sh = doc.body.scrollWidth;
+    if (doc.body.offsetWidth) docWd = oh = doc.body.offsetWidth;
+    if (sh && oh) docWd = Math.max(sh, oh);
+  }
+  return docWd;
+}
+ 
+function setIframeHeight(iframeName, divName) {
+  var mainEl = document.getElementById? document.getElementById(divName): document.all? document.all[divName]: null;
+  var iframeEl = document.getElementById? document.getElementById(iframeName): document.all? document.all[iframeName]: null;
+  if ( iframeEl ) {
+    iframeEl.style.height = "auto"; // helps resize (for some) if new doc shorter than previous  
+    
+    var docHt = getDocHeight(document);
+    var docWd = getDocWidth(document);
+    if (docHt) iframeEl.style.height = docHt + 30 + "px";
+    if (docWd) iframeEl.style.width = docWd + "px";
+    iframeEl.style.display = 'block';
+    mainEl.style.display = 'none';
+  }
+}
+
+function Checkframestatus()
+{
+   if(document.getElementsByTagName('iframe')[0].readyState != 'complete' && typeof(document.getElementsByTagName('iframe')[0].readyState) != 'undefined')
+   {
+      location.replace(blockPageURL+'&NoReplace=1');
+   }
+         clearInterval(interval);
+}
+
+-->
+</script>
+<base href="file://C:\Program Files (x86)\Trend Micro\Security Agent\"></HEAD><BODY class="debug" onLoad="setIframeHeight('View','Temp')">
+<iframe id="View" src="#" style="display:none;"></iframe>
+<DIV id="Temp" class="wrapper">
+    <div class="top">
+        <h1>Website blocked by Trend Micro Worry-Free Business Security</h1>
+    </div>
+    <div class="main_content">
+        <div class="status_area statusstop">
+            <h2>Restricted website blocked</h2>
+          <p id="idURL">http://pixel.watch/9pqw</p>
+        </div>
+        <table border="0" cellspacing="0" cellpadding="0" class="table_detail">
+            <tr>
+                <th>Category:</th>
+              <td id="L10NCategoryGroupName"></td>
+              <td id="idCategoryGroupName" style="display:none;">Spam</td>
+            </tr>
+        </table>
+        <h3 class="sub_header">What You Can Do:</h3>
+        <ul class="list_arrow">
+            <li>Contact your administrator about security settings on your network</li>
+            <li id="li_contbrowsing" style="display:none;">I understand the risks and I want to <a id="lnk_contbrowsing" href="#">continue browsing</a></li>
+      	</ul>
+    </div>
+    <div class="footer">
+        Copyright &copy; 2006-2014. Trend Micro&trade; Incorporated. All rights reserved.
+    </div>
+</div>
+<script language="javascript"> 
+<!--
+	var strQueryString = document.location.search;
+        interval = setInterval(function(){Checkframestatus()},3000);
+	if(strQueryString.length > 0)
+	{
+		strCategoryName = GetQueryValue(strQueryString, 'CategoryName');
+		strQueryString = GetQueryValue(strQueryString, 'url');
+		if(strQueryString.length > 0)
+		{
+			document.getElementById('idURL').innerHTML = decodeURIComponent(strQueryString);
+			document.getElementById('idCategoryGroupName').innerHTML = decodeURIComponent(strCategoryName);
+		}
+	}
+	document.getElementById('L10NCategoryGroupName').innerHTML = 
+		CatNameMapping[document.getElementById('idCategoryGroupName').innerHTML.replace(/&nbsp;/gi,' ')];
+
+        blockPageURL = 'http://localhost:21112/GET?f=URLfAltAct.htm&URL=' +
+			encodeURIComponent(document.getElementById('idURL').innerHTML) + '&CategoryGroup=' + 
+			encodeURIComponent(document.getElementById('idCategoryGroupName').innerHTML.replace(/&nbsp;/gi,' '));
+
+	if(document.getElementsByTagName('iframe')[0].contentWindow)
+	{
+		document.getElementsByTagName('iframe')[0].contentWindow.location = blockPageURL;
+	}else{
+		document.getElementsByTagName('iframe')[0].src = blockPageURL;
+	}
+//-->
+</script>
+</body>
+</html>
